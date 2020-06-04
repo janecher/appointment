@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Beauty salon</h1>
+        </div>
+        <form id="appointment">
+            <div class="form-group">
+                <lable for="name">Name:</lable>
+                <input id="name" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <lable for="service">Choose the type of service:</lable>
+                <select class="form-control" id="service">
+                    <option>Haircut (coloring is optional)</option>
+                    <option>Hand care (manicure, massage and mask)</option>
+                    <option>Face care (cleaning, massage, mask, brow design)</option>
+                    <option>Feet care (pedicure, massage and scrub)</option>
+                  </select>                 
+            </div>
+            <div class="form-group">
+                <label for="date">Date of service:</label>
+                <input id="date" class="form-control" type="date">
+            </div>
+            <div class="form-group">
+                <label for="time">Time of service:</label>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="time" value="9am" checked>
+                    9am-10am
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="time" value="10am">
+                    10am-11am
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                    <input type="radio" name="time" value="12pm">
+                    12pm-1pm
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="2" id="comment"></textarea>
+            </div>
+            <button type="submit" class="btn">Make an appointment</button>
+            <div id="confirmation">
+                <h3>Thank you!</h3>
+                <p>Information about your appointment:</p>
+                <p>Name: <span class="name"></span></p>
+                <p>The type of service: <span class="service"></span></p>
+                <p>Date: <span class="date"></span></p>
+                <p>Time: <span class="time"></span></p>
+            </div>
+        </form>
+    </div>   
+</body>
+</html>
