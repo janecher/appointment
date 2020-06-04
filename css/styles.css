@@ -1,0 +1,28 @@
+.jumbotron {
+    background-color: #ffe6e6;
+    border: 3px bold gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+lable{
+    font-weight: bold;
+}
+button{
+    background-color: #ffe6e6;
+    border: 2px solid  black;
+}
+
+#confirmation{
+    display: none;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+h3{
+    color: #EA2152;
+}
