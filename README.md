@@ -6,12 +6,13 @@
 
 ## Description
 
-Web page for making appointments in beauty salon
+Webpage for making appointments in a beauty salon
 
 ## Setup/Installation Requirements
 
-* Clone the files from the repository
-* Run index.html file in the browser
+* https://janecher.github.io/appointment/index.html
+* Clone/download repository (click green button "clone or download" and click downlown ZIP or use "git clone https://github.com/janecher/appointment.git" command in your terminal)
+* Open index.html file in the browser
 
 ## Technologies Used
 
